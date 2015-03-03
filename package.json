@@ -1,0 +1,15 @@
+{
+  "name": "express-able",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MPL 2.0",
+  "dependencies": {
+    "able": "git://github.com/dannycoates/able.git#master",
+    "parseurl": "1.3.0"
+  }
+}
