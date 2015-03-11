@@ -8,8 +8,11 @@ module.exports = function (options) {
   function getProject(cb) {
     if (project) { return cb(null, project) }
     able.load(
-      path.resolve(process.cwd(), options.dir || './experiments'),
-      options.git,
+      {
+        dirname: path.resolve(process.cwd(), options.dir || './experiments'),
+        gitUrl: options.git,
+        watch: options.watch
+      },
       function (err, proj) {
         if (err) { return cb(err) }
         project = proj

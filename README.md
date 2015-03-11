@@ -13,7 +13,8 @@ app.use(
   require('express-able')({
     dir: './experiments',
     git: 'git://github.com/dannycoates/able-demo.git#master',
-    addRoutes: true
+    addRoutes: true,
+    watch: true
   })
 )
 
@@ -28,3 +29,4 @@ app.get('/foo', function (req, res) {
 - **dir** : *optional* directory where experiments are stored. Defaults to `./experiments` in the current working directory.
 - **git** : *optional* a github url to watch for experiment changes.
 - **addRoutes** : *optional* adds routes for using Able from a client browser. Defaults to `false`.
+- **watch** : *optional* poll git for changes to experiments. Defaults to `false`.
