@@ -1,6 +1,6 @@
 {
   "name": "express-able",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Able A/B testing middleware for express",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "author": "Danny Coates <dannycoates@gmail.com>",
   "license": "MPL 2.0",
   "dependencies": {
-    "able": "0.3.0",
+    "able": "0.4.0",
     "parseurl": "1.3.0"
   },
   "repository": "dannycoates/express-able"
