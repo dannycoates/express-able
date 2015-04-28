@@ -1,6 +1,6 @@
 {
   "name": "express-able",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Able A/B testing middleware for express",
   "main": "index.js",
   "scripts": {
