@@ -13,7 +13,7 @@
   "author": "Danny Coates <dannycoates@gmail.com>",
   "license": "MPL 2.0",
   "dependencies": {
-    "able": "0.4.1",
+    "able": "git://github.com/vladikoff/able.git#clone_url",
     "parseurl": "1.3.0"
   },
   "repository": "dannycoates/express-able"
