@@ -6,15 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dannycoates/express-able"
-  },
+  "repository": "dannycoates/express-able",
   "author": "Danny Coates <dannycoates@gmail.com>",
-  "license": "MPL 2.0",
+  "license": "MPL-2.0",
   "dependencies": {
-    "able": "0.4.3",
+    "able": "dannycoates/able#b69b067ab3600e8140d12c3bb38b7ee30781fd17",
     "parseurl": "1.3.0"
-  },
-  "repository": "dannycoates/express-able"
+  }
 }
